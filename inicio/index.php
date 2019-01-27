@@ -133,7 +133,7 @@
 <br>
 
 <div class="container" style="margin-top: 3%;">
-	<h2>RELOJESRELOJES</h2>
+	<h2>RELOJES</h2>
 	<div class="row">
 		<?php $sel_reloj = $con->prepare("SELECT foto, precio, producto, clave FROM inventario WHERE categoria = 'RELOJES' AND cantidad > 0 ORDER BY id DESC LIMIT 4");
 		$sel_reloj->execute();

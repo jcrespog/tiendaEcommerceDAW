@@ -27,12 +27,12 @@
 		<div id="my-nav" class="collapse navbar-collapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.php"><i class="fas fa-home"></i> Inicio</a>
+          <a class="nav-link text-white" href="index.php"><i class="fas fa-home"></i> Inicio</a>
         </li>
       </ul>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="../index.php"><i class="fas fa-users"></i> Zona Cliente</a>
+          <a class="nav-link text-white" href="../index.php"><i class="fas fa-users"></i> Zona Cliente</a>
         </li>
       </ul> 
     </div>
