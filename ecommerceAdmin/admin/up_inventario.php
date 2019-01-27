@@ -60,11 +60,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	    $up->bindparam(':foto', $copia);
 	     
 		if ($up->execute()){
-		echo alerta('El producto ha sido actualizado','inventario.php?clave='.$clave.'');
+		echo alerta('El artículo ha sido actualizado','inventario.php?clave='.$clave.'');
 		$up = null;
 		$con = null;
 		}else{
-			echo alerta('El producto no ha podido ser actualizado','editar_producto.php?clave='.$clave.'');
+			echo alerta('El artículo no ha podido ser actualizado','editar_producto.php?clave='.$clave.'');
 		}
 		
 

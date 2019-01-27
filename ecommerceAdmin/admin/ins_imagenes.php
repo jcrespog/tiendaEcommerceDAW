@@ -59,7 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 				echo alerta('Imagenes guardadas correctamente','agregar_imagenes.php?clave='.$clave_producto.'');
 				
 			}else{
-				echo alerta('La imagenes no pudieron ser guardadas','agregar_imagenes.php?clave='.$clave_producto.'');
+				echo alerta('La imagenes no pudierón ser guardadas','agregar_imagenes.php?clave='.$clave_producto.'');
 			}
 			$ins = null;
 			$con = null;

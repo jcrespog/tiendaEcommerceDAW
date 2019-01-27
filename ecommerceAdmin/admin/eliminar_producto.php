@@ -37,10 +37,10 @@ $del = $con->prepare("DELETE FROM inventario WHERE clave = :clave ");
 			$del2->execute();
  		 	$del2 = null;
 
- 		 echo alerta('¡El articulo ha sido eliminado!',$pagina);
+ 		 echo alerta('¡El artículo ha sido eliminado!',$pagina);
 
  	}else{
- 		echo alerta('¡El articulo no ha podido ser eliminado!',$pagina);
+ 		echo alerta('¡El artículo no ha podido ser eliminado!',$pagina);
  	}
 
 

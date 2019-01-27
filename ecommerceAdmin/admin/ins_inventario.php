@@ -61,11 +61,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	    $ins->bindparam(':foto', $copia);
 	     
 		if ($ins->execute()){
-		echo alerta('¡Articulo agregado correctamente!','inventario.php');
+		echo alerta('¡Artículo agregado correctamente!','inventario.php');
 		$ins = null;
 		$con = null;
 		}else{
-			echo alerta('¡Error! Articulo no agregado','inventario.php');
+			echo alerta('¡Error! Artículo no agregado','inventario.php');
 		}
 		
 	}else{
